@@ -25,7 +25,8 @@ Practice using git(hub)
  - Push and make a pull request with the fix
 
 # Description
-
+ - make a change. Describe the change in Work in progress and commite. 
+ 
 # Requirements
 
 # Installation
