@@ -22,6 +22,9 @@ AalborgWWTPs
 # Do some QC
 ```{r}
 # filter some samples or taxa
+d <- AalborgWWTPs %>%
+  amp_subset_samples(minreads = 2000L)
+  
 ```
 
 # Alpha-diversity check, octave plots
