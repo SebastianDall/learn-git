@@ -29,7 +29,9 @@ d <- AalborgWWTPs %>%
 
 # Alpha-diversity check, octave plots
 ```{r}
-
+amp_heatmap(d,
+            tax_aggregate = "Phylum",
+            group_by = "Plant")
 ```
 
 # Make a simple overview heatmap
